@@ -2,4 +2,4 @@
 Option 2 for GA Capstone 22-Oct-2022
 
 * UNet [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yxmauw/eye-disease-classification/blob/main/UNet.ipynb)
-* EfficientNet [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_Ukze0stIRx419-g5hnrNFBDj0XQEKir)
+* EfficientNet [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yxmauw/eye-disease-classification/blob/main/EfficientNet.ipynb)
