@@ -16,7 +16,7 @@ _Fictional scenario_
 
 > Using 4,217 retinal images collected from various sources like IDRiD, Oculur recognition, HRF etc, construct a machine learning algorithm to help classify an RGB retina image to any of 4 classes (cataract, diabetic retinopathy, glaucoma and normal).
 
-_**Potential stakeholders:** public health authorities, eye clinics, neighbourhood eye screening centres e.g optical shops_
+_**Potential stakeholders:** public health authorities, eye clinics, neighbourhood eye screening centres e.g. optical shops_
 
 
 ## Data
