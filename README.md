@@ -82,12 +82,21 @@ _For simplicity, the following will be based on EfficientNet notebook since both
      * Resizing `(160,160)` for EfficientNet or `(299,299)` for InceptionResNetV2
      * Rescaling pixels to `(0, 1)` - allows faster model convergence
      * Data augmentation using `RandomFlip("horizontal")`, `RandomRotation(0.1)`, `RandomContrast(0.1)`
-1. Create base model using transfer learning 
+1. Create base model using transfer learning **without** data augmentation layers
      * EfficientNetV2S: `input_shape=(160,160,3)`, `include_top=False`, `weights='imagenet'`, `pooling='max'`
      * `base_model.trainable=True`
      * Compile model: `optimizer='Adamax'`, `loss='categorical_crossentropy'`
         * Metrics: `categorical_accuracy`, `precision`, `recall`, `auc`, custom function `f1_score`
-
+1. Evaluate base model
+     * Accuracy 93.4%
+     * Loss 0.311
+     * Accuracy generalisation 6.29%
+1. Add data augmentation layers to model
+1. Evaluate augmented model - took more epoch runs to reach minimal loss
+     * Accuracy 94.2%
+     * Loss 0.312
+     * Accuracy generalisation 5.66%
+1. 
 
 ## Conclusions
 
