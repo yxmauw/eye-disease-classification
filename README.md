@@ -97,8 +97,7 @@ _For simplicity, the following will be based on EfficientNet notebook since both
      * Loss 0.312
      * Accuracy generalisation 5.66%
 1. Confusion matrix ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/cm.jpg)
-1. Classification report 
-![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/cls_rp.jpg)
+1. Classification report <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/cls_rp.jpg)
 
 ## Conclusions
 
