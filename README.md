@@ -1,4 +1,4 @@
-# Eye disease classification
+# :eye: Eye disease classification
 A multiclass problem <br>
 Option 2 for GA Capstone 22-Oct-2022
 
