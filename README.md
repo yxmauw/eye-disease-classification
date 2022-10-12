@@ -110,7 +110,7 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 1. Comparison between EfficientNetV2S and InceptionResNetV2 models <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/roc.jpg) <br> InceptionResNetV2 model is marginally superior to EfficientNet, however inferior in identifying images with glaucoma.
 
 
-## Conclusions & Recommendatios
+## Conclusions & Recommendations
 
 
 
