@@ -104,13 +104,13 @@ _For simplicity, the following will be based on EfficientNet notebook since both
      * Abnormality not obvious, too mild (e.g. mild cataract)
 1. Saliency map - Glaucoma example <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/saliency_map.jpg)
 1. Activation heatmap - Glaucoma example <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/heatmap.jpg) <br> Optic disc region is activating the model the most, which is desired for detecting glaucoma
-1. Comparison between EfficientNetV2S and InceptionResNetV2 models <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/roc.jpg)
+1. Comparison between EfficientNetV2S and InceptionResNetV2 models <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/roc.jpg) <br> InceptionResNetV2 model is marginally superior to EfficientNet, however inferior in identifying images with glaucoma.
 
 
-## Conclusions
+## Conclusions & Recommendatios
 
 
----
+
 ## App Deployment
 * Link to app: [![Generic badge](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/yxmauw/eye-disease-clf-app)
 * Link to app repository: [![Generic badge](https://badgen.net/badge/icon/Open%20Github%20Repo/blue?icon=github&label)](https://github.com/yxmauw/eye-disease-clf-app)
