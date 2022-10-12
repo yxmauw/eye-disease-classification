@@ -18,6 +18,8 @@ Using 4217 retinal images collected from various sources like IDRiD, Oculur reco
 | Diabetic retinopathy |     1098      |
 | Glaucoma             |     1007      |
 | Normal               |     1074      |
+| ***                  | ***           |
+| **Total**            |   **4217**    |
 
 
 ## Repository contents
