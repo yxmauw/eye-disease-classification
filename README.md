@@ -9,15 +9,8 @@ In Singapore, diabetic retinopathy is the leading cause of vision loss in workin
 
 ## Problem Statement
 
-Using 4217 retinal images collected from various sources like IDRiD, Oculur recognition, HRF etc, 
+Using 4217 retinal images collected from various sources like IDRiD, Oculur recognition, HRF etc, construct a machine learning algorithm to help classify 
 
-construct a machine learning algorithm to help classify 
-
----
-## Contents
-
-
----
 ## Data
 | Eye disease          | No. of images |
 |:---------------------|:-------------:|
@@ -25,6 +18,9 @@ construct a machine learning algorithm to help classify
 | Diabetic retinopathy | |
 | Glaucoma             | |
 | Normal               | |
+
+
+## Repository contents
 
 ---
 ## Notebooks
