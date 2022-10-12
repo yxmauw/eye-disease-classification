@@ -28,6 +28,7 @@ _Fictional scenario_
 
 
 ## Directory tree
+```
 Repo
  ├── model_notebooks
  |      ├── EfficientNet.ipynb
@@ -45,7 +46,7 @@ Repo
  |      └── InceptionResNetV2.png
  ├── README.md
  └── slides.pdf
-
+```
 
 ## Notebooks
 * EfficientNet [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yxmauw/eye-disease-classification/blob/main/model_notebooks/EfficientNet.ipynb)
