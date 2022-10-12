@@ -52,6 +52,7 @@ Repo
 * EfficientNet [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yxmauw/eye-disease-classification/blob/main/model_notebooks/EfficientNet.ipynb)
 * InceptionResnetV2  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yxmauw/eye-disease-classification/blob/main/model_notebooks/InceptionResNetV2.ipynb)
 
+_For simplicity, the following will be based on EfficientNet notebook since both notebooks are very similar but with different ML models_
 
 ## Contents
 1. Import image dataset from Kaggle using Kaggle API
@@ -70,9 +71,24 @@ Repo
 14. Recommendations
 
 ## Methods
+1. Download dataset into local drive using `!kaggle datasets download gunavenkatdoddi/eye-diseases-classification`
+1. Explore images
+     * Image count for each class / total image count
+     * Image attributes `(512, 512, 3)`, `RGB`, pixels range `(0, 255)`
+     * Image hashing: `4215` unique images 
+1. Split dataset using `splitfolders` library at a ratio of `(.5, .25, .25)`
+     * Read folders into tensor dataset formats using `image_dataset_from_directory()`, set `shuffle=False` for prediction evaluation 
+1. Visualise preprocessed images 
+     * Resizing `(160,160)` for EfficientNet or `(299,299)` for InceptionResNetV2
+     * Rescaling pixels to `(0, 1)` - allows faster model convergence
+     * Data augmentation using `RandomFlip("horizontal")`, `RandomRotation(0.1)`, `RandomContrast(0.1)`
+1. Create base model using transfer learning 
+     * EfficientNetV2S: `input_shape=(160,160,3)`, `include_top=False`, `weights='imagenet'`, `pooling='max'`
+     * `base_model.trainable=True`
+     * Compile model: `optimizer='Adamax'`, `loss='categorical_crossentropy'`
+        * Metrics: `categorical_accuracy`, `precision`, `recall`, `auc`, custom function `f1_score`
 
 
----
 ## Conclusions
 
 
