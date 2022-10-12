@@ -27,4 +27,5 @@ Option 2 for GA Capstone 22-Oct-2022
 
 ---
 ## App Deployment
-
+* Link to app: [![Generic badge](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/yxmauw/eye-disease-clf-app)
+* Link to repository: 
