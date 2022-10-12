@@ -14,10 +14,10 @@ Using 4217 retinal images collected from various sources like IDRiD, Oculur reco
 ## Data
 | Eye disease          | No. of images |
 |:---------------------|:-------------:|
-| Cataract             | |
-| Diabetic retinopathy | |
-| Glaucoma             | |
-| Normal               | |
+| Cataract             |     1038      |
+| Diabetic retinopathy |     1098      |
+| Glaucoma             |     1007      |
+| Normal               |     1074      |
 
 
 ## Repository contents
