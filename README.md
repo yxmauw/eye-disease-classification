@@ -103,7 +103,7 @@ _For simplicity, the following will be based on EfficientNet notebook since both
      * Wrong source labelled
      * Abnormality not obvious, too mild (e.g. mild cataract)
 1. Saliency map - Glaucoma example <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/saliency_map.jpg)
-1. Activation heatmap - Glaucoma example <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/heatmap.jpg)
+1. Activation heatmap - Glaucoma example <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/heatmap.jpg) <br> Optic disc region is activating the model the most, which is desired for detecting glaucoma
 
 
 ## Conclusions
