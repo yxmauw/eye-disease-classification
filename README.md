@@ -14,7 +14,7 @@ In Singapore, diabetic retinopathy is the leading cause of vision loss in workin
 _Fictional scenario_
 > Singapore Health Promotion Board is searching for innovatve, cutting-edge technological solutions to facilitate mass eye screening of commom eye diseases in the general population. They hope to automate interpretation of retina screening images, shorten the time taken to flag high-risk persons for further health assessment. This would allow early intervention, lower risk of disease progression and lower overall healthcare cost burden. By minimising number of people in the population with severe eye disease, we minimise the use of more costly therapies.  
 
-> Using 4217 retinal images collected from various sources like IDRiD, Oculur recognition, HRF etc, construct a machine learning algorithm to help classify an RGB retina image to any of 4 classes (cataract, diabetic retinopathy, glaucoma and normal).
+> Using 4,217 retinal images collected from various sources like IDRiD, Oculur recognition, HRF etc, construct a machine learning algorithm to help classify an RGB retina image to any of 4 classes (cataract, diabetic retinopathy, glaucoma and normal).
 
 _**Potential stakeholders:** public health authorities, eye clinics, neighbourhood eye screening centres e.g optical shops_
 
