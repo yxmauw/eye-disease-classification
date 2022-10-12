@@ -55,10 +55,22 @@ Repo
 
 ## Contents
 1. Import image dataset from Kaggle using Kaggle API
-2. Explore images
-3. 
+2. Explore images, image hashing
+3. Train, test, validation datasets split
+4. Visualise image augmentation sample
+5. Use EfficientNetV2S for Transfer learning as Base model with custom metrics 
+6. Evaluate loss and accuracy trends
+7. Add data augmentation layers to model and run
+8. Evaluate loss and accuracy trends
+9. Confusion matrices, Classification report
+10. Evaluate misclassified images
+11. Saliency Maps
+12. Activation Heatmaps
+13. ROC, PR curves to compare with InceptionResNetV2 model
+14. Recommendations
 
 ## Methods
+
 
 ---
 ## Conclusions
