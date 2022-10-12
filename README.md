@@ -54,6 +54,9 @@ Repo
 
 
 ## Contents
+1. Import image dataset from Kaggle using Kaggle API
+2. Explore images
+3. 
 
 ## Methods
 
