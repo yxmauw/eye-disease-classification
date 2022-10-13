@@ -111,7 +111,25 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 
 
 ## Conclusions & Recommendations
+__Limitations:__
+1. Model cannot be used to identify retina images with multiple abnormalities. e.g. retina with both diabetic neuropathy and cataract. It would only be able to give 1 class as output, not multiple classes
+1. Model is unable to pinpoint the region or abnormal feature found in the retina image - can only classify image as a whole.
+1. Retina images with poor resolution, poor image capture (no retina or optic disc visualised) have higher chance of being wrongly classified.
 
+__Conclusions:__
+1. As most of the probabilities for wrongly classified images are quite high (>0.9), increasing probability threshold may not be useful in improving evaluation metrics.
+1. This model is best used with other screening modalities to increase precision and accuracy of diagnosis e.g.
+      * tonometer (for anterior chamber pressure) for glaucoma
+      * snellen chart (visual acuity) for overall vision ability
+      * auto perimeter visual field analyser (glaucoma)
+      * Optical coherence tomography (OCT) - (identiy retina layers, and subretinal deposits)
+      
+__Suggestions:__
+1. Try individual colour channels for input images, e.g. just using green channels as input. May help model train better
+1. Remove black background for input images, by adding alpha channel for transparency. May help model learn diabetic neuropathy more accurately.
+1. Train a different model on just the diabetic neuropathy images vs normal images (keeping the black background), and see if the model is activated by correct features in the images with diabetic neuropathy rather than background.
+1. Improve the input images by trimming off images with non-obvious abnormalities, distortion, or features not distinguishable for the particular class. E.g. glaucoma - need to have distinct optic disc cataract - need to have distinct blurring or dullness of retina normal - need to have good quality images, no confusing peripheral dullness or blurring or obscured optic disc that can be easily confused with glaucoma or cataract.
+1. Try Meta Pseudo Label model, a semi-supervised learning method that achieves a new state-of-the-art top-1 accuracy of 90.2% on ImageNet, and see if model learns better with less confusion and less background activation
 
 
 ## App Deployment
