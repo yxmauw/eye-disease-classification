@@ -74,7 +74,7 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 14. Recommendations
 
 ## Methods
-1. Download dataset into local drive using `!kaggle datasets download gunavenkatdoddi/eye-diseases-classification`
+1. Download dataset into local drive using `!kaggle datasets download gunavenkatdoddi/eye-diseases-classification` from [Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
 1. Explore images
      * Image count for each class / total image count
      * Image attributes `(512, 512, 3)`, `RGB`, pixels range `(0, 255)`
