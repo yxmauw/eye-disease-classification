@@ -122,7 +122,7 @@ __Conclusions:__
       * tonometer (for anterior chamber pressure) for glaucoma
       * snellen chart (visual acuity) for overall vision ability
       * auto perimeter visual field analyser (glaucoma)
-      * Optical coherence tomography (OCT) - (identiy retina layers, and subretinal deposits)
+      * Optical coherence tomography (OCT) - (identify retina layers, and subretinal deposits)
       
 __Suggestions:__
 1. Try individual colour channels for input images, e.g. just using green channels as input. May help model train better
