@@ -111,8 +111,24 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 
 
 ## Results
-* EfficientNetV2S prediction accuracy on test set: 93%
-* InceptionResNetV2 prediction accuracy on test set: 92.4%
+| Test set metrics |     Class       | EfficientNetV2S | InceptionResNetV2 |
+|:-----------------|:---------------:|:---------------:|:-----------------:|
+| Accuracy         |        -        |       93%       |       92.4%       |
+| Precision        |    Cataract     |||
+|                  |    DRE          |||
+|                  |    Glaucoma     |||
+|                  |    Normal       |||
+| Recall |
+|||||
+|||||
+|||||
+| F1 score ||||
+|||||
+|||||
+|||||
+
+_DRE: diabetic retinopathy_
+
 
 ## Conclusions & Recommendations
 __Limitations:__
