@@ -110,6 +110,10 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 1. Comparison between EfficientNetV2S and InceptionResNetV2 models <br> ![](https://github.com/yxmauw/eye-disease-classification/blob/main/assets/roc.jpg) <br> InceptionResNetV2 model is marginally superior to EfficientNet, however inferior in identifying images with glaucoma.
 
 
+## Results
+* EfficientNetV2S prediction accuracy on test set: 93%
+* InceptionResNetV2 prediction accuracy on test set: 92.4%
+
 ## Conclusions & Recommendations
 __Limitations:__
 1. Model cannot be used to identify retina images with multiple abnormalities. e.g. retina with both diabetic neuropathy and cataract. It would only be able to give 1 class as output, not multiple classes
