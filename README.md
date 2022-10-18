@@ -111,21 +111,22 @@ _For simplicity, the following will be based on EfficientNet notebook since both
 
 
 ## Results
-| Test set metrics |     Class       | EfficientNetV2S | InceptionResNetV2 |
-|:-----------------|:---------------:|:---------------:|:-----------------:|
-| Accuracy         |        -        |       93%       |       92.4%       |
-| Precision        |    Cataract     |||
-|                  |    DRE          |||
-|                  |    Glaucoma     |||
-|                  |    Normal       |||
-| Recall |
-|||||
-|||||
-|||||
-| F1 score ||||
-|||||
-|||||
-|||||
+|   Class  | Test set metrics | EfficientNetV2S | InceptionResNetV2 |
+|:---------|:----------------:|:---------------:|:-----------------:|
+|     -    |     Accuracy     |      93.00%     |       92.43%      |
+| Cataract |    Precision     |      94.07%     |       90.91%      |
+|          |    Recall        |      91.54%     |       96.15%      |
+|          |    F1 score      |      92.79%     |       93.46%      |
+|  DRE     |    Precision     |      99.64%     |       99.28%      |
+|          |    Recall        |      100%       |       100%        |
+|          |    F1 score      |      99.82%     |       99.64%      |
+| Glaucoma |    Precision     |      90.04%     |       86.96%      |
+|          |    Recall        |      89.33%     |       86.96%      |
+|          |    F1 score      |      89.68%     |       86.96%      |
+|  Normal  |    Precision     |      88.09%     |       92.06%      |
+|          |    Recall        |      90.71%     |       86.25%      |
+|          |    F1 score      |      89.38%     |       89.06%      |            
+
 
 _DRE: diabetic retinopathy_
 
